@@ -82,9 +82,30 @@
       .accordion-content p {
         margin: 15px 0;
       }
+
+      .controls {
+        max-width: 600px;
+        margin: 0 auto 20px;
+        text-align: center;
+      }
+      .controls button {
+        margin: 5px;
+        padding: 8px 16px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-weight: 600;
+        background-color: #0066cc;
+        color: white;
+      }
     </style>
   </head>
   <body>
+    <div class="controls">
+      <button id="showAll">Show All</button>
+      <button id="hideAll">Hide All</button>
+    </div>
+
     <div class="accordion">
       <div class="accordion-item">
         <div class="accordion-header">Section 1</div>
